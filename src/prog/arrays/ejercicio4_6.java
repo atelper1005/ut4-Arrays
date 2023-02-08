@@ -8,8 +8,8 @@ public class ejercicio4_6 {
         imprimeLongitudCadena("Hola que tal");
         caracterEnLaPosicion("Hola que tal", 3);
         System.out.println("El caracter aparece " + cuentaOcurrenciasDeUnCaracter("Hola que tal", 'a') + " veces");
-        imprimeCadenasEnOrdenAlfabetico(new String[]{"Hola", "Jorge", "Adios"});
-        System.out.println(Arrays.toString(cadenaCodificada("En un lugar. de la Mancha,. de cuyo nombre no. me quiero acordar")));
+        imprimeCadenasEnOrdenAlfabetico(new String[]{"Hola", "Antonio", "Bye"});
+        System.out.println(Arrays.toString(cadenaCodificada("Mi Burrito Sabanero va camindo de Belén")));
         int[] numbers = {2,1,11,10};
         System.out.println(Arrays.toString(convertiraStringOrdenar(numbers)));
 
@@ -18,7 +18,7 @@ public class ejercicio4_6 {
     }
 
     //Imprime la longitud de la cadena.
-    //Al contrario que con enteros, para imprimir la longitud de una cadena se usa .length() --con los paréntesis.
+    //Al contrario que con enteros, para imprimir la longitud de una cadena se usa .length()
     public static void imprimeLongitudCadena(String cadena){
         System.out.println("La cadena " + "'" +  cadena + "'" + " mide " + cadena.length() + " caracteres.");
     }
